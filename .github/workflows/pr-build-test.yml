@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+      # trigger test
       - name: Start Build Indicator
         env:
           LIFX_BULB_LOCATION: ${{ vars.LIFX_BULB_LOCATION }}
